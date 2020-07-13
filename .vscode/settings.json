@@ -1,0 +1,34 @@
+{
+  "printWidth": 150,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
+  "workbench.settings.useSplitJSON": true,
+  "launch": {
+  
+  },
+  "files.autoSave": "onFocusChange",
+  "workbench.settings.editor": "json",
+  "search.showLineNumbers": true,
+  "extensions.confirmedUriHandlerExtensionIds": [
+  
+  ],
+  "terminal.integrated.fastScrollSensitivity": 2,
+  "terminal.integrated.lineHeight": 4,
+  "css.fileExtensions": [
+
+    "css",
+    "scss"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "json.format.enable": false,
+  "json.schemas": [
+  
+  ]
+}
