@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" />
+
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./images/sprite.svg" />
   </head>
 
   <body>
-    <header class="header-top">
-      <div class="top-line-container portfolio">
-        <a href="#"><img src="./images/WebStudio.jpg" class="web-studio-link" alt="Web Studio" /></a>
+    <header class="header">
+      <div class="header-container">
+        <a href="#"><img src="./images/WebStudio.jpg" class="logo-link" alt="Web Studio" /></a>
 
         <nav class="site-nav-container">
           <ul class="site-nav">
-            <li class="site-nav-item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="site-nav-item">
-              <a href="./portfolio.html" class="link-current">Портфолио</a>
-            </li>
-            <li class="site-nav-item"><a href="#" class="link">Контакты</a></li>
+            <li class="site-nav-item"><a href="./index.html" class="site-nav-link">Студия</a></li>
+            <li class="site-nav-item"><a href="./portfolio.html" class="site-nav-link-current">Портфолио</a></li>
+            <li class="site-nav-item"><a href="#" class="site-nav-link">Контакты</a></li>
           </ul>
         </nav>
 
-        <address class="address-container">
-          <ul class="top-line-address">
-            <li class="address-items">
-              <a href="#mailto:info@devstudio.com" class="link">
-                <svg class="address-icon-envelope" width="16px" height="12px">
+        <address class="header-address-container">
+          <ul class="header-address-list">
+            <li class="header-address-item">
+              <a class="header-address-link" href="#mailto:info@devstudio.com">
+                <svg class="header-address-icon envelope" width="16px" height="12px">
                   <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="address-items">
-              <a href="#tel:+380961111111" class="link">
-                <svg class="address-icon-phone" width="10px" height="15px">
+            <li class="header-address-item">
+              <a class="header-address-link" href="#tel:+380961111111">
+                <svg class="header-address-icon phone" width="10px" height="15px">
                   <use href="./images/sprite.svg#icon-phone"></use>
                 </svg>
                 +38-096-111-11-11
@@ -252,25 +253,25 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="footer-container">
-        <div class="footer-address-container">
+        <div class="footer-address">
           <span class="web-footer">Web</span>
           <span class="studio-footer">Studio</span>
 
-          <address class="footer-address">
+          <address class="footer-address-container">
             <span class="location"> г. Киев, пр-т Леси Украинки, 26 </span>
             <br />
-            <a class="end-link" href="#mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-address-link" href="#mailto:info@devstudio.com">info@devstudio.com</a>
             <br />
-            <a class="end-link" href="#tel:+380961111111">+38-096-111-11-11</a>
+            <a class="footer-address-link" href="#tel:+380961111111">+38-096-111-11-11</a>
           </address>
         </div>
 
-        <div class="join-us">
+        <div class="join-us-container">
           <p class="join-text">Присоединяйтесь</p>
 
-          <ul class="join-social-container">
+          <ul class="join-social-list">
             <li class="join-social-item">
               <a class="join-social-link" href="#">
                 <svg class="join-social-icon" width="20px" height="20px">
