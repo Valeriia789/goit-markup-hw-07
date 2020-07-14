@@ -465,7 +465,7 @@ margin-right: 50px;
 /* } */ 
 
 /*What we do*/
-
+/* 
 .page-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -477,8 +477,8 @@ margin-right: 50px;
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-}
-
+} */
+/* 
 .doings-container {
   width: 1200px;
 
@@ -501,8 +501,8 @@ margin-right: 50px;
 
 .doings-list .doings-card + .doings-card {
   margin-left: 30px;
-}
-
+} */
+/* 
 .doings-card {
   position: relative;
 
@@ -526,12 +526,12 @@ margin-right: 50px;
   height: 70px;
   bottom: 0%;
 
-  margin: 0px;
+  margin: 0px; */
 
   /* если убрать фиксированную высоту, тогда:
   padding-top: 27px; 
   padding-bottom: 27px; */
-
+/* 
   background-color: var(--doings-bacground-color);
   color: white;
 
@@ -542,7 +542,7 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 
 /*Our team*/
 
