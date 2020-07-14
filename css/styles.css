@@ -335,7 +335,7 @@ margin-right: 50px;
 } */
 
 /*section features*/
-
+/* 
 .features-container {
   width: 1200px;
 
@@ -368,8 +368,8 @@ margin-right: 50px;
   display: block;
   align-items: center;
   width: 270px;
-}
-
+} */
+/* 
 .feachers-icon-container {
   display: flex;
   align-items: center;
@@ -393,13 +393,13 @@ margin-right: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: transparent; */
 
   /*
   transform: translate3d(0px, 0px, 0px) 5000ms cubic-bezier(.52,.23,.18,.84);
   transition: transform;
   */
-}
+/* } */
 
 /*
 .feachers-icon:hover {
@@ -438,7 +438,7 @@ margin-right: 50px;
   background-image: url(../images/4astronaut.svg);
 }
 */
-
+/* 
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -462,7 +462,7 @@ margin-right: 50px;
   line-height: 24px;
   letter-spacing: 0.03em;
   /* or 171% */
-}
+/* } */ 
 
 /*What we do*/
 
