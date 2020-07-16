@@ -75,6 +75,7 @@
   &:hover svg,
   &:focus svg {
     fill: $accent-color;
+    transition: all 150ms linear;
   }
 
   .popup-close-icon {
@@ -85,6 +86,8 @@
     height: 11px;
 
     fill: #212121;
+
+    transition: all 150ms linear;
   }
 }
 

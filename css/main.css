@@ -1065,6 +1065,8 @@ p {
 .popup-close:hover svg,
 .popup-close:focus svg {
   fill: #2196f3;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
 }
 
 .popup-close .popup-close-icon {
@@ -1073,6 +1075,8 @@ p {
   width: 11px;
   height: 11px;
   fill: #212121;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
 }
 
 /* 
