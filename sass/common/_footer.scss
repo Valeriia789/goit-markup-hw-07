@@ -144,73 +144,36 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
+}
 
-  .subscribe-container {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.subscribe-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-    .subscribe-input {
-      width: 358px;
-      height: 50px;
+  .subscribe-input {
+    width: 358px;
+    height: 50px;
 
-      margin-right: 12px;
-      padding: 15px 16px;
+    margin-right: 12px;
+    padding: 15px 16px;
 
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
-      font-size: 16px;
-      line-height: 20px;
-      letter-spacing: 0.03em;
-      color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 
-      background-color: transparent;
+    background-color: transparent;
 
-      &:focus {
-        outline: none;
-        background-color: $section-background-color;
-        border-color: $accent-color;
-      }
-    }
-
-    .subscribe-button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-
-      width: 200px;
-      height: 50px;
-
-      padding: 10px 29px;
-
-      color: #ffffff;
-      font-family: $font-main;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 30px;
-      letter-spacing: 0.06em;
-      text-decoration: none;
-
-      background-color: $accent-color;
-      border-radius: 4px;
-      cursor: pointer;
-      border-color: transparent;
-
-      &:focus {
-        outline: none;
-      }
-    }
-
-    .icon-send {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-
-      margin-left: 10px;
+    &:focus {
+      outline: none;
+      background-color: $section-background-color;
+      border-color: $accent-color;
     }
   }
+  // Subscribe button
 }
