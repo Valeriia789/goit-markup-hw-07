@@ -52,6 +52,67 @@ p {
   overflow: hidden;
 }
 
+.order-button,
+.subscribe-button,
+.popup-send-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  background-color: #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.order-button:focus,
+.subscribe-button:focus,
+.popup-send-button:focus {
+  outline: none;
+}
+
+.order-button:hover, .order-button:focus,
+.subscribe-button:hover,
+.subscribe-button:focus,
+.popup-send-button:hover,
+.popup-send-button:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-button .icon-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+  text-align: center;
+}
+
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +481,7 @@ p {
   text-transform: uppercase;
 }
 
-.subscribe-form .subscribe-container {
+.subscribe-container {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -432,7 +493,7 @@ p {
           justify-content: center;
 }
 
-.subscribe-form .subscribe-container .subscribe-input {
+.subscribe-container .subscribe-input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -448,55 +509,10 @@ p {
   background-color: transparent;
 }
 
-.subscribe-form .subscribe-container .subscribe-input:focus {
+.subscribe-container .subscribe-input:focus {
   outline: none;
   background-color: #f5f4fa;
   border-color: #2196f3;
-}
-
-.subscribe-form .subscribe-container .subscribe-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  width: 200px;
-  height: 50px;
-  padding: 10px 29px;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  background-color: #2196f3;
-  border-radius: 4px;
-  cursor: pointer;
-  border-color: transparent;
-}
-
-.subscribe-form .subscribe-container .subscribe-button:focus {
-  outline: none;
-}
-
-.subscribe-form .subscribe-container .icon-send {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 10px;
 }
 
 .hero-section {
@@ -539,41 +555,6 @@ p {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.hero-container .order-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-  background-color: #2196f3;
-  border-radius: 4px;
-  cursor: pointer;
-  border-color: transparent;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-  letter-spacing: 0.06em;
-  text-decoration: none;
-}
-
-.hero-container .order-button:hover, .hero-container .order-button:focus {
-  outline: none;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .features-container {
@@ -1354,43 +1335,6 @@ p {
   line-height: 24px;
   /* identical to box height, or 171% */
   letter-spacing: 0.03em;
-}
-
-.popup-send-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 55px;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-  letter-spacing: 0.06em;
-  background-color: #2196f3;
-  border-radius: 4px;
-  cursor: pointer;
-  border-color: transparent;
-}
-
-.popup-send-button:focus {
-  outline: none;
-}
-
-.popup-send-button:focus, .popup-send-button:hover {
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-buttons-list {
