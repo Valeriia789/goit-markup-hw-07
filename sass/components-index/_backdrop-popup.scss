@@ -72,6 +72,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
+  &:hover svg,
+  &:focus svg {
+    fill: $accent-color;
+  }
+
   .popup-close-icon {
     position: absolute;
     display: block;
@@ -80,11 +85,6 @@
     height: 11px;
 
     fill: #212121;
-
-    &:hover,
-    &:focus {
-      fill: $accent-color;
-    }
   }
 }
 

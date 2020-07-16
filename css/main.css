@@ -1062,16 +1062,17 @@ p {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.popup-close:hover svg,
+.popup-close:focus svg {
+  fill: #2196f3;
+}
+
 .popup-close .popup-close-icon {
   position: absolute;
   display: block;
   width: 11px;
   height: 11px;
   fill: #212121;
-}
-
-.popup-close .popup-close-icon:hover, .popup-close .popup-close-icon:focus {
-  fill: #2196f3;
 }
 
 /* 
